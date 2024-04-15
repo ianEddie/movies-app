@@ -1,4 +1,4 @@
-const API_KEY = import.meta.env.PUBLIC_APIKEY
+const API_KEY = import.meta.env.SECRET_APIKEY
 
 export async function getMovies(movie: string) {
   try {
